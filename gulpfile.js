@@ -9,7 +9,8 @@ gulp.task('server', function() {
 
     browserSync({
         server: {
-            baseDir: "src"
+            proxy: "local.dev"
+            
         }
     });
 

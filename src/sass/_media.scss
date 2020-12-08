@@ -1,0 +1,129 @@
+@media (max-width: 991px) {
+    .promo {
+        padding-left: 40px;
+        padding-right: 40px;
+        &__header {
+            font-size: 35px;
+        }
+        &__subheader {
+            font-size: 16px;
+            margin-top: 4px;
+        }
+        &__icons {
+            margin-top: 20px;
+        }
+    }
+    .button{
+        &_main {
+            margin-top: 35px;
+        }
+    }
+    .advantages {
+        min-height: 430px;
+        padding: 35px 20xp 0 20px;
+        &__wrapper {
+            margin-top: 30px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .promo {
+        min-height: 580px;
+    }
+    .advantages {
+        min-height: 380px;
+        padding-left: 40px;
+        padding-right: 40px;
+        &__subheader {
+            margin-top: 15px;
+        }
+        &__descr {
+            margin-top: 10px;
+            font-size: 12px;
+            max-width: 200px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .promo {
+        padding-bottom: 20px;
+        max-height: 480px;
+        &__wrapper {
+            align-items: center;
+            margin-top: 40px;
+        }
+    }
+    .header {
+        &__official{
+            display: none;
+        }
+    }
+    .advantages {
+        padding-bottom: 40px;
+        &__wrapper {
+            flex-direction: column;
+        }
+        &__subheader {
+            font-size: 20px;
+        }
+        &__descr {
+            font-size: 15px;
+            max-width: 340px;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .promo {
+        &__wrapper {
+            align-items: center;
+            margin-top: 15px;
+        }
+        &__header {
+            font-size: 32px;
+        }
+    }
+    .header {
+        
+        flex-direction: column;
+        align-items: center;
+        &__logo {
+            width: 300px;
+        }
+        &__contacts {
+            align-items: center;
+            margin-top: 20px;
+        }
+    }
+    .button {
+        &_first {
+            display: block;
+            margin-top: 10px;
+        }
+    }
+    .advantages {
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 360px) {
+    .promo {
+        max-height: 800px;
+        &__header {
+            font-size: 20px;
+        }
+        &__subheader {
+            font-size: 15px;
+            text-align: center;
+        }
+        &__icons {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__icon {
+            margin-top: 5px;
+        }
+    }
+}
